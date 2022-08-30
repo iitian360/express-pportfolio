@@ -1,9 +1,11 @@
+import dotenv from 'dotenv';
+dotenv.config();
 import express from 'express';
 import home from './routes/homepage.js';
 import { join } from 'path';
 
 const app=express();
-const port=process.env.port||3000;
+const port=process.env.PORT||3000;
 
 // middleware for dynamic public folder excess//
 app.use(express.static(join(process.cwd(),'public')));
