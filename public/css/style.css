@@ -495,5 +495,52 @@ font-family: 'PT Serif', serif;
   margin:2px 0px 0px 20px ;
 }
 
+/* ************************** content of skill ********** */
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #E4E9F7;
+}
+
+.content .skl-box {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 250px;
+  height: 30vh;
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content .skl-box .header {
+  text-align: center;
+  font-size: large;
+  opacity: 1;
+  font-weight: 600;
+  font-family: 'PT Serif', serif;
+}
+
+.content .skl-box .icon {
+  font-size: 30px;
+
+}
+
+#htm {color: rgb(255, 177, 41);}
+#mongo {color: green;}
+#css {color: dodgerblue;}
+#js {color: rgb(147, 147, 19);}
+#boot {color: blueviolet;}
+#node {color: olivedrab;}
+#exp {color: mediumslateblue;}
+#bj {color: lightcoral;}
+#cc {color: slategray;}
+#ml {color: rgb(59, 43, 19);}
+/* 😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎 */
+
 
 
