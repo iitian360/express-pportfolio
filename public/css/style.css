@@ -502,19 +502,24 @@ font-family: 'PT Serif', serif;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background: #E4E9F7;
+  /* background: #E4E9F7; */
 }
 
 .content .skl-box {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 10px;
   width: 250px;
   height: 30vh;
   display: flex;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   margin: 5px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.content .skl-box:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .content .skl-box .header {
@@ -523,6 +528,10 @@ font-family: 'PT Serif', serif;
   opacity: 1;
   font-weight: 600;
   font-family: 'PT Serif', serif;
+}
+.content .skl-box .text{
+  text-align: center;
+  font-size: small;
 }
 
 .content .skl-box .icon {
@@ -540,7 +549,27 @@ font-family: 'PT Serif', serif;
 #bj {color: lightcoral;}
 #cc {color: slategray;}
 #ml {color: rgb(59, 43, 19);}
+#read {color:rgb(103, 77, 253);}
+#poet {color:orangered;}
+#team {color:darkgreen;}
+.container-fluid{
+  background:#E4E9F7 ;
+}
+.container-fluid .head{
+  font-size: 50px;
+  padding: 0;
+  opacity: .8;
+  text-align: center;
+  font-family:'Baloo Bhaina 2', cursive ;
+  font-weight: 900;
+}
 /* 😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎 */
+
+
+/* ****************************  contact page ************************* */
+
+
+/* ******************************************************************** */
 
 
 

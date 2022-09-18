@@ -27,6 +27,16 @@ class homeController {
             
         }
     }
+
+    static contact=async(req,res)=>{
+        try{
+            res.render('contact_page',{'title':'Lets have a coffee!'})
+        }
+        catch(err){
+            console.log(err);
+            
+        }
+    }
 };
 
 export default homeController;
